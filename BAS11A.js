@@ -10,13 +10,7 @@ function titleCase(str) {
         let newCombo = firstletter + restofword
         newStr+=newCombo + " "
         }
-//    let firstLetterLastWord = breakup[breakup.length-1][0].toUpperCase()
-//    let restLettersLastWord = breakup[breakup.length-1].slice(1)
-//    let newLastWord = firstLetterLastWord + restLettersLastWord
-//    newStr += newLastWord
-    console.log(newStr.length)
     let brandNewStr = newStr.trim()
-    console.log(brandNewStr.length)
     return brandNewStr
 }
 
