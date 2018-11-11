@@ -9,7 +9,7 @@ function booWho(bool) {
     else
         return false
 }
-
+//console.log(booWho(null)) should return false
 console.log(booWho(null))
 //booWho(true) should return true.
 console.log(booWho(true))
